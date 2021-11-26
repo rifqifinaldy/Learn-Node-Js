@@ -1,0 +1,26 @@
+{
+  "name": "ngulik-node",
+  "version": "1.0.0",
+  "description": "Barang Original, kurir ramah, admin marah, tapi apa itu Node-JS ?",
+  "main": "server.js",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rifqif-socketspace/Ngulik-Node-Js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rifqif-socketspace/Ngulik-Node-Js/issues"
+  },
+  "homepage": "https://github.com/rifqif-socketspace/Ngulik-Node-Js#readme"
+}

@@ -7,22 +7,15 @@
     <title>BELAJAR NODE JS || <%= title %> </title>
 </head>
 <body>
-    <nav>
-        <div class="site-title">
-           <a href="/">Rifqi F</a>
-           <p>Sedang Belajar NODE !!</p> 
-        </div>
-        <ul>
-            <li><a href="/">Homepage</a></li>
-            <li><a href="/komentar">Komentar</a></li>
-            <li><a href="/komentar/add">Tambah</a></li>
-        </ul>
-    </nav>
+    <%- include('./partials/nav.ejs') %> 
+
+
     <h1 class="text-primary">Komentar</h1>
     <div class="content">
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea sit aperiam enim, iusto delectus iste tempora, repellendus consectetur rem, porro eligendi aut dignissimos saepe asperiores odit sapiente dicta perspiciatis corporis.</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea sit aperiam enim, iusto delectus iste tempora, repellendus consectetur rem, porro eligendi aut dignissimos saepe asperiores odit sapiente dicta perspiciatis corporis.</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea sit aperiam enim, iusto delectus iste tempora, repellendus consectetur rem, porro eligendi aut dignissimos saepe asperiores odit sapiente dicta perspiciatis corporis.</p>
     </div>
+    <%- include('./partials/footer.ejs') %> 
 </body>
 </html>

@@ -6,6 +6,9 @@ const app = express();
 // Register View Engine
 app.set('view engine', 'ejs');
 
+// Register Static Folder
+app.use(express.static(__dirname + '/public'));
+
 // Listen for requests
 app.listen(3000);
 

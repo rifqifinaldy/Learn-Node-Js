@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BELAJAR NODE JS || <%= title %>  </title>
+</head>
+<body>
+
+    <nav>
+        <div class="site-title">
+           <a href="/">Rifqi F</a>
+           <p>Sedang Belajar NODE !!</p> 
+        </div>
+        <ul>
+            <li><a href="/">Homepage</a></li>
+            <li><a href="/komentar">Komentar</a></li>
+            <li><a href="/komentar/add">Add</a></li>
+        </ul>
+    </nav>
+    <h1 class="text-primary">HOME</h1>
+    <div class="content">
+        <% if(komentar.length > 0) { %>
+         <% komentar.forEach(komentar => { %>
+            <h3 class="title"><%= komentar.title %> </h3>
+            <p class="author"><%= komentar.author %> </p>
+        <% }) %>     
+        <% } else { %> 
+        <h1>BELUM ADA KOMENTAR</h1>
+        <% } %>  
+    </div>
+</body>
+</html>
